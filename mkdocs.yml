@@ -1,0 +1,16 @@
+site_name: pdfneedocr
+repo_url: https://github.com/annagodwin/pdfneedocr
+
+plugins:
+- mkdocstrings:
+    custom_templates: templates
+theme:
+  name: material
+  palette:
+    primary: red
+  features:
+    - toc.integrate
+markdown_extensions:
+  - pymdownx.highlight:
+      use_pygments: true
+  - pymdownx.superfences

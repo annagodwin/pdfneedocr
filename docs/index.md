@@ -1,6 +1,6 @@
 # Documentation
 
-Quickly determine if your PDF Needs OCR.
+Quickly determine if your PDF Needs OCR
 
 ## Installation
 
