@@ -19,6 +19,8 @@ pip install "pdfneedocr @ git+https://github.com/annagodwin/pdfneedocr.git"
 
 ## Example
 
+See [examples](https://github.com/annagodwin/pdfneedocr/blob/main/examples) for a [Collab Notebook](https://github.com/annagodwin/pdfneedocr/blob/main/examples/try_out_pdfneedocr.ipynb) to try out `pdfneedocr`.
+
 **pdfneedocr** simply returns one of two outcomes:
 
   - `True` if the PDF requires OCR
