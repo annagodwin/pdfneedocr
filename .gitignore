@@ -132,3 +132,5 @@ dmypy.json
 .DS_Store
 
 .pre-commit-config.yaml
+
+tests/data/docx/
