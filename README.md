@@ -2,7 +2,7 @@
 
 `pdfneedocr` answers the question: Does a "PDF Need OCR?" with a `True` or `False` response.
 
-The thought behind this package is have a quick method of determining if a PDF needs OCR. If a PDF does require OCR, it leaves the method of which OCR technology to use up to the user.
+The thought behind this package is to have **a quick method of determining if a PDF needs OCR**. If a PDF does require OCR, it leaves the method of which OCR technology to use up to the user.
 
 Limitations: `pdfneedocr` is currently limited to testing if a PDF is readable from an "extract text" perspective. In other words, if it cannot read *text* (and only text) within a PDF, the PDF needs OCR. Next steps in development include checking if images and other objects are readable in the absence of text to determine if a PDF Needs OCR.
 
