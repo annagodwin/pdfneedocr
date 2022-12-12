@@ -304,7 +304,7 @@
 
 
 <h1 id="documentation">Documentation</h1>
-<p>Quickly determine if your PDF Needs OCR.</p>
+<p><code>pdfneedocr</code> answers the question: Does a "PDF Need OCR"? with a <code>True/False</code> response.</p>
 <h2 id="installation">Installation</h2>
 <p>To use <strong>pdfneedocr</strong> first install it using pip:</p>
 <div class="highlight"><pre><span></span><code>python -m pip install &quot;pdfneedocr @ git+https://github.com/annagodwin/pdfneedocr.git&quot;
@@ -318,14 +318,16 @@
 <li>
 <p><code>False</code> if the PDF is machine readable and doesn't require OCR</p>
 </li>
-<li>
-<p>and the <code>exception</code> result, if an error is encountered attempting to read the PDF</p>
-</li>
 </ul>
-<div class="highlight"><pre><span></span><code>&gt;&gt;&gt; from pdfneedocr.check import need_ocr_check
-&gt;&gt;&gt; pdf_fpath = &#39;example.pdf&#39;
-&gt;&gt;&gt; need_ocr_check(pdf_fpath)
+<div class="highlight"><pre><span></span><code>&gt;&gt;&gt; from pdfneedocr.check import pdf_need_ocr_check
+&gt;&gt;&gt; pdf_fpath = &#39;pdf_that_needs_ocr.pdf&#39;
+&gt;&gt;&gt; pdf_need_ocr_check(pdf_fpath)
 True
+
+&gt;&gt;&gt; from pdfneedocr.check import pdf_need_ocr_check
+&gt;&gt;&gt; pdf_fpath = &#39;pdf_that_is_machine_readable.pdf&#39;
+&gt;&gt;&gt; pdf_need_ocr_check(pdf_fpath)
+False
 </code></pre></div>
 
 
