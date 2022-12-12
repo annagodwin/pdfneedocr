@@ -1,4 +1,4 @@
-# Documentation
+# pdfneedocr [![](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 
 `pdfneedocr` answers the question: Does a "PDF Need OCR?" with a `True` or `False` response.
 
