@@ -1,6 +1,5 @@
 import fitz
 from pathlib import Path
-from typing import Union
 
 
 def pdf_need_ocr_check(pdf_filepath: Path) -> bool:
