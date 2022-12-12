@@ -14,7 +14,7 @@ As of December 2022 `pdfneedocr` is under development. All feedback welcome!
 To use **pdfneedocr** first install it using pip:
 
 ```
-python -m pip install "pdfneedocr @ git+https://github.com/annagodwin/pdfneedocr.git"
+pip install "pdfneedocr @ git+https://github.com/annagodwin/pdfneedocr.git"
 ```
 
 ## Example
