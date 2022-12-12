@@ -1,4 +1,4 @@
 # Reference
 
-`need_ocr_check`
-::: pdfneedocr.check.need_ocr_check
+`pdf_need_ocr_check`
+::: pdfneedocr.check.pdf_need_ocr_check
